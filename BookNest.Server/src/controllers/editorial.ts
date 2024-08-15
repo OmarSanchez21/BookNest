@@ -66,3 +66,5 @@ const EditorialControllers = {
         }
     }
 }
+
+export default EditorialControllers;

@@ -7,8 +7,8 @@ interface IEditorial extends Document {
 }
 
 const EditorialSchema = new Schema<IEditorial>({
-    nombre: { types: String, required: true, unique: true },
-    pais: { types: String, required: true},
+    nombre: { type: String, required: true, unique: true },
+    pais: { type: String, required: true},
     libros: [{type: Schema.Types.ObjectId, ref: 'Libro'}]
 });
 

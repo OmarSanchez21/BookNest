@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookNest.Web", "BookNest.Web", "{9657F867-0C3C-4CAB-AFFB-B0F4A826AF3D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookNest.Web", "BookNest.Web", "{384DA9EA-9488-48C3-95D4-BE64C3395E27}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin", "BookNest.Web\Admin\Admin.csproj", "{B826293C-846A-462B-A6A9-96BBDD415A5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin", "BookNest.Web\Admin\Admin.csproj", "{EB4F7F68-2A89-4422-AC80-CC874FBEE8A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B826293C-846A-462B-A6A9-96BBDD415A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B826293C-846A-462B-A6A9-96BBDD415A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B826293C-846A-462B-A6A9-96BBDD415A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B826293C-846A-462B-A6A9-96BBDD415A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB4F7F68-2A89-4422-AC80-CC874FBEE8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB4F7F68-2A89-4422-AC80-CC874FBEE8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB4F7F68-2A89-4422-AC80-CC874FBEE8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB4F7F68-2A89-4422-AC80-CC874FBEE8A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B826293C-846A-462B-A6A9-96BBDD415A5E} = {9657F867-0C3C-4CAB-AFFB-B0F4A826AF3D}
+		{EB4F7F68-2A89-4422-AC80-CC874FBEE8A0} = {384DA9EA-9488-48C3-95D4-BE64C3395E27}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {772E67BC-4FC0-41EF-9F87-3DC75172DFD6}

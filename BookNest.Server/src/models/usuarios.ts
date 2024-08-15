@@ -10,10 +10,11 @@ interface IUsuario extends Document {
     email: string;
     genero: string;
     paisOrigen: string;
-    favoritosLibros: Schema.Types.ObjectId[];
-    GenerosFavortios: Schema.Types.ObjectId[];
-    historialPrestamo: Schema.Types.ObjectId[];
-    historialCompras: Schema.Types.ObjectId[];
+    favoritosLibros?: Schema.Types.ObjectId[];
+    GenerosFavortios?: Schema.Types.ObjectId[];
+    listaDeseados?: Schema.Types.ObjectId[];
+    historialPrestamo?: Schema.Types.ObjectId[];
+    historialCompras?: Schema.Types.ObjectId[];
 }
 
 const UsuarioSchema: Schema = new Schema({
@@ -28,6 +29,7 @@ const UsuarioSchema: Schema = new Schema({
     paisOrigen: {type: String, required: true},
     favoritosLibros: [{type: Schema.Types.ObjectId, ref: 'Libro'}],
     GenerosFavortios: [{type: Schema.Types.ObjectId, ref: 'Genero'}],
+    listaDeseados: [{type: Schema.Types.ObjectId, ref: 'Libro'}],
     historialPrestamo: [{type: Schema.Types.ObjectId, ref: 'Prestamo'}],
     historialCompras: [{type: Schema.Types.ObjectId, ref: 'Compra'}]
 });

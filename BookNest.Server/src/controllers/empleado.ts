@@ -113,3 +113,4 @@ const EmpleadoControllers = {
         }
     }
 }
+export default EmpleadoControllers;

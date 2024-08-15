@@ -24,6 +24,6 @@ const EmpleadoSchema: Schema = new Schema({
     paisOrigen: {type: String, required: true},
 });
 
-const EmpleadoModel = mongoose.model<IEmpleado>("Autor", EmpleadoSchema);
+const EmpleadoModel = mongoose.model<IEmpleado>("Empleado", EmpleadoSchema);
 
 export default EmpleadoModel;
