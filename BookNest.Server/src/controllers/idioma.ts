@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import IdiomaModel from '../models/idioma';
 import { createErrorResponse, createSuccessResponse } from "../util/apiResponse";
-import { logError } from "../util/logs";
+import { logError, logInfo } from "../util/logs";
 
 const IdiomaControllers = {
     getAllIdiomas: async(req: Request, res: Response) => {
